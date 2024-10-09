@@ -1,0 +1,90 @@
+name: cargo
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  like_button: ^2.0.5
+
+  
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  google_maps_flutter: ^2.1.1
+  location:
+  line_awesome_flutter: ^2.0.0
+  animations: ^2.0.7
+  animate_do: ^3.0.2
+  rflutter_alert: ^2.0.4
+  date_format: ^2.0.7
+  intl: ^0.18.1
+  get: ^4.6.5
+  firebase_auth:
+  firebase_core:
+  cloud_firestore:
+  image_picker: ^0.8.7+5
+  firebase_storage:
+  uuid: ^3.0.7
+  awesome_dialog: ^3.1.0
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/appLogo.png"
+  adaptive_icon_background: "#F9864A"
+  adaptive_icon_foreground: "images/logoForground.png"
+  flutter_lints: ^2.0.0
+  get:
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - images/
+    - images/agence_profile/
+    - images/icons/
+    - images/agences/
+    - images/cars/
+    - images/iconns/
+    - images/agence_park/
+    - images/splash/
+    - images/login_signin/
+    - images/contact/
+    - images/circle_avatar/
+    - images/marks/
+    - images/notification/
+fonts:
+    - family: Be_Vietnam_Pro
+      fonts:
+         - asset: fonts/Be_Vietnam_Pro
+    - family: Exo
+      fonts:
+         - asset: Exo
+    - family: Inter
+      fonts:
+         - asset: Inter
+    - family: Mulish
+      fonts:
+         - asset: Mulish
+    - family: Outfit
+      fonts:
+         - asset: fonts/Outfit
+    - family: Poppins
+      fonts:
+         - asset: fonts/Poppins
+
